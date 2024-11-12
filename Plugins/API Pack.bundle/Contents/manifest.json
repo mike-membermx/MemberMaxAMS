@@ -1,0 +1,263 @@
+﻿{
+	"name": "API Pack",
+	"id": 15000,
+	"commands": [{
+		"theme": "API Environment",
+		"syntax": "API Get Version:T"
+	}, {
+		"theme": "API Environment",
+		"syntax": "API Get System Color(&L):L"
+	}, {
+		"theme": "API Environment",
+		"syntax": "API Get Messages Status:I"
+	}, {
+		"theme": "API Environment",
+		"syntax": "API Get Toolbar Info(&I;&I)"
+	}, {
+		"theme": "API Environment",
+		"syntax": "API Lock Database"
+	}, {
+		"theme": "API Environment",
+		"syntax": "API Unlock Database"
+	}, {
+		"theme": "API Environment",
+		"syntax": "API Is Database Locked:I"
+	}, {
+		"theme": "API Environment",
+		"syntax": "API Is Web Process:I"
+	}, {
+		"theme": "API Environment",
+		"syntax": "API Set Thermometer Rectangle(&I;&I;&I;&I)"
+	}, {
+		"theme": "API Environment",
+		"syntax": "API Create Tip(&S;&I;&I;&I;&I)"
+	}, {
+		"theme": "API Editors",
+		"syntax": "API Open Method Editor(&T;&L):I"
+	}, {
+		"theme": "API Editors",
+		"syntax": "API Open Formula Editor(&I;&T):I"
+	}, {
+		"theme": "API Execute",
+		"syntax": "API Create Method(&T;&T;&S;&L):I"
+	}, {
+		"theme": "API Execute",
+		"syntax": "API Set Method(&T;&T):I"
+	}, {
+		"theme": "API Execute",
+		"syntax": "API Does Method Exist(&T):I"
+	}, {
+		"theme": "API Execute",
+		"syntax": "API Get Method ID(&T):L"
+	}, {
+		"theme": "API Execute",
+		"syntax": "API Execute Method By ID(&L):I"
+	}, {
+		"theme": "API Execute",
+		"syntax": "API Tokenize(&T;&O):I"
+	}, {
+		"theme": "API Execute",
+		"syntax": "API Detokenize(&O;&T):I"
+	}, {
+		"theme": "API Execute",
+		"syntax": "API Execute Tokens(&O):I"
+	}, {
+		"theme": "API Execute",
+		"syntax": "API Execute Tokens Function(&O;&T;&I;&T):I"
+	}, {
+		"theme": "API Execute",
+		"syntax": "API Execute Function(&T;&T;&I;&T):I"
+	}, {
+		"theme": "API Execute",
+		"syntax": "API On Start Process(&T;&Y):I"
+	}, {
+		"theme": "API Internal Resources",
+		"syntax": "API Create Resource File(&T):I"
+	}, {
+		"theme": "API Internal Resources",
+		"syntax": "API Open Resource File(&T):I"
+	}, {
+		"theme": "API Internal Resources",
+		"syntax": "API Close Resource File(&I)"
+	}, {
+		"theme": "API Internal Resources",
+		"syntax": "API Get Resource Type List(&Y;&I):I"
+	}, {
+		"theme": "API Internal Resources",
+		"syntax": "API Get Resource ID List(&T;&Y;&I):I"
+	}, {
+		"theme": "API Internal Resources",
+		"syntax": "API Count Resources(&T;&I):L"
+	}, {
+		"theme": "API Internal Resources",
+		"syntax": "API Get Indexed Resource(&T;&L;&O;&I):I"
+	}, {
+		"theme": "API Internal Resources",
+		"syntax": "API Get Resource(&T;&L;&O;&I):I"
+	}, {
+		"theme": "API Internal Resources",
+		"syntax": "API Get Resource Name(&T;&L;&T;&I):I"
+	}, {
+		"theme": "API Internal Resources",
+		"syntax": "API Get Resource Size(&T;&L;&L;&I):I"
+	}, {
+		"theme": "API Internal Resources",
+		"syntax": "API Get Resource Timestamp(&T;&L;&D;&H;&I):I"
+	}, {
+		"theme": "API Internal Resources",
+		"syntax": "API Set Resource(&T;&L;&T;&O;&I):I"
+	}, {
+		"theme": "API Internal Resources",
+		"syntax": "API Delete Resource(&T;&L;&I):I"
+	}, {
+		"theme": "API Internal Resources",
+		"syntax": "API Bag To XML(&O):O"
+	}, {
+		"theme": "API Packed Records",
+		"syntax": "API Record To Blob(&I;&O):I"
+	}, {
+		"theme": "API Packed Records",
+		"syntax": "API Blob To Record(&I;&O):I"
+	}, {
+		"theme": "API Client Server",
+		"syntax": "API Document Exists On Server(&T;&T;&T):I"
+	}, {
+		"theme": "API Client Server",
+		"syntax": "API Get Document From Server(&T;&O):L"
+	}, {
+		"theme": "API Client Server",
+		"syntax": "API Send Document To Server(&T;&O;&T;&T):I"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Is Virtual Struct Defined:I"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Count Virtual Tables:I"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Count Virtual Fields(&I):I"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Get Real Table Number(&I):I"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Get Real Field Number(&I;&I;&I;&I)"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Get Virtual Table Number(&I):I"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Get Virtual Field Number(&I;&I;&I;&I)"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Get Real Table Numbers(&Y)"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Get Real Field Numbers(&I;&Y)"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Get Virtual Table Name(&I):T"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Get Virtual Field Name(&I;&I):T"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Get Virtual Table Names(&Y)"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Get Virtual Field Names(&I;&Y)"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Resolve Fieldname(&T;&I;&I)"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Resolve Virtual Fieldname(&T;&I;&I)"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Field Popup(&I;&I)"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Table Field Popup(&I;&I)"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Virtual Field Popup(&I;&I)"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Virtual Table Field Popup(&I;&I)"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Get Subfield Pointer(&Z;&I;&Z)"
+	}, {
+		"theme": "API Structure Access",
+		"syntax": "API Get Subfield Number(&Z;&I;&I;&I)"
+	}, {
+		"theme": "API Blobs",
+		"syntax": "API Find In Blob(&O;&T;&I;&L;&L):L"
+	}, {
+		"theme": "API Blobs",
+		"syntax": "API Count In Blob(&O;&T;&I;&L;&L;&Y):L"
+	}, {
+		"theme": "API Blobs",
+		"syntax": "API Replace In Blob(&O;&T;&T;&I;&L;&L;&L)"
+	}, {
+		"theme": "API Blobs",
+		"syntax": "API Compare Blobs(&O;&O;&I;&L;&L):I"
+	}, {
+		"theme": "API Blobs",
+		"syntax": "API Checksum Blob(&O;&L;&L):L"
+	}, {
+		"theme": "API Arrays",
+		"syntax": "API Text To Array(&T;&T;&Y)"
+	}, {
+		"theme": "API Arrays",
+		"syntax": "API Array To Text(&Y;&T):T"
+	}, {
+		"theme": "API Arrays",
+		"syntax": "API Blob To Array(&O;&T;&Y)"
+	}, {
+		"theme": "API Arrays",
+		"syntax": "API Array To Blob(&Y;&T):O"
+	}, {
+		"theme": "API Arrays",
+		"syntax": "API Get Array Type(&Y):I"
+	}, {
+		"theme": "API Arrays",
+		"syntax": "API Get Array Item Pointer(&Z;&L;&Z)"
+	}, {
+		"theme": "API Arrays",
+		"syntax": "API Sum Array(&Y):D"
+	}, {
+		"theme": "API Arrays",
+		"syntax": "API Min Array(&Y):D"
+	}, {
+		"theme": "API Arrays",
+		"syntax": "API Max Array(&Y):D"
+	}, {
+		"theme": "API Arrays",
+		"syntax": "API Average Array(&Y):D"
+	}, {
+		"theme": "API Arrays",
+		"syntax": "API Variance Array(&Y):D"
+	}, {
+		"theme": "API Arrays",
+		"syntax": "API Stdev Array(&Y):D"
+	}, {
+		"theme": "API Arrays",
+		"syntax": "API Find Matches(&Y;&T;&Y)"
+	}, {
+		"theme": "API Arrays",
+		"syntax": "API Text Matches(&T;&T):I"
+	}, {
+		"theme": "API Timer",
+		"syntax": "API Start Timer(&L;&L;&I)"
+	}, {
+		"theme": "API Timer",
+		"syntax": "API Stop Timer(&L)"
+	}, {
+		"theme": "API Timer",
+		"syntax": "API Get Timer Properties(&L;&I;&L;&I)"
+	}, {
+		"theme": "",
+		"syntax": "%API Timer Control"
+	}]
+}
